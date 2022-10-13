@@ -1,4 +1,4 @@
-# Basic Physics calculations in a Ipython Jupyter Notebook
+# Basic Physics calculations in an IPython Jupyter Notebook
 
 Access this Binder at the following URL
 
