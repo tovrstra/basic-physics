@@ -1,0 +1,10 @@
+name: basic-physics
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - matplotlib
+  - ipympl
+  - pint
