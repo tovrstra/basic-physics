@@ -1,5 +1,5 @@
 # Basic Physics calculations in an IPython Jupyter Notebook
 
-Access this Binder at the following URL
+Run this notebook with Google Colab at the following URL:
 
-http://mybinder.org/v2/gh/tovrstra/basic-physics/main?filepath=index.ipynb
+https://colab.research.google.com/github/tovrstra/basic-physics/blob/master/index.ipynb
