@@ -10,7 +10,7 @@ repos:
       args: [--nbqa-skip-celltags=before-import, --profile=black]
     - id: nbqa-check-ast
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: "v4.4.0"
+  rev: "v4.5.0"
   hooks:
     - id: check-yaml
     - id: check-ast
@@ -25,13 +25,13 @@ repos:
   hooks:
     - id: nbstripout
 - repo: https://github.com/psf/black
-  rev: "23.9.1"
+  rev: "23.11.0"
   hooks:
     - id: black
       language_version: python3.9
       args: ["-l", "100"]
 - repo: https://github.com/asottile/pyupgrade
-  rev: "v3.11.0"
+  rev: "v3.15.0"
   hooks:
     - id: pyupgrade
       args: [--py39-plus]
