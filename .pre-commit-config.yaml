@@ -1,6 +1,10 @@
 repos:
+- repo: https://github.com/Lucas-C/pre-commit-hooks
+  rev: v1.5.5
+  hooks:
+    - id: remove-crlf
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.6.0
+  rev: v5.0.0
   hooks:
     - id: check-added-large-files
     - id: check-ast
@@ -18,21 +22,14 @@ repos:
     - id: fix-byte-order-marker
     - id: mixed-line-ending
     - id: trailing-whitespace
-- repo: https://github.com/Lucas-C/pre-commit-hooks
-  rev: v1.5.5
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.7.1
   hooks:
-    - id: forbid-crlf
-    - id: remove-crlf
+    - id: ruff-format
+    - id: ruff
+      args: ["--fix", "--show-fixes"]
 - repo: https://github.com/srstevenson/nb-clean
-  rev: "3.3.0"
+  rev: "4.0.1"
   hooks:
     - id: nb-clean
       args: ["--remove-empty-cells", "--preserve-cell-metadata", "tags", "slideshow", "--"]
-- repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.6.1
-  hooks:
-    - id: ruff
-      types_or: [ python, pyi, jupyter ]
-      args: [ --fix ]
-    - id: ruff-format
-      types_or: [ python, pyi, jupyter ]
