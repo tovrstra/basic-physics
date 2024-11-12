@@ -8,6 +8,6 @@ You can use the demonstration notebook in two ways.
 
 2. Download this repository as a ZIP file from the following URL:
 
-    <https://github.com/tovrstra/basic-physics/archive/refs/heads/main.zip
+    https://github.com/tovrstra/basic-physics/archive/refs/heads/main.zip
 
-    After downloading, unpack the ZIP file and open the `index.ipynb` notebook with VSCode or Jupyter Lab.
+    After downloading, unpack the ZIP file and open the `index.ipynb` notebook in VSCode or Jupyter Lab.
