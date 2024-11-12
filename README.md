@@ -5,7 +5,7 @@ All files in this repository are licensed under a [Creative Commons Attribution-
 This tutorial is written by Toon Verstraelen at [Ghent University](https://www.ugent.be/).
 
 
-# The Basiscs of Scientific Computation in an IPython Jupyter Notebook
+# The Basics of Scientific Computation in an IPython Jupyter Notebook
 
 You can use the demonstration notebook in two ways.
 
