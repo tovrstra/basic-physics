@@ -1,4 +1,11 @@
-# Basic Physics calculations in an IPython Jupyter Notebook
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+All files in this repository are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+This tutorial is written by Toon Verstraelen at [Ghent University](https://www.ugent.be/).
+
+
+# The Basiscs of Scientific Computation in an IPython Jupyter Notebook
 
 You can use the demonstration notebook in two ways.
 
